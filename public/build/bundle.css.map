@@ -1,0 +1,12 @@
+{
+  "version": 3,
+  "file": "bundle.css",
+  "sources": [
+    "..\\..\\src\\Gallery.svelte"
+  ],
+  "sourcesContent": [
+    "<script>\r\n    export let asset;\r\n\r\n    function open() {\r\n        window.open(asset.url, '_blank');\r\n    }\r\n\r\n\r\n</script>\r\n\r\n<main class=\"col-4\" on:click={open}>\r\n    <div class=\"card\">\r\n        <img src=\"{asset.downloadUrl}\" alt={asset.author}>\r\n    </div>\r\n</main>\r\n\r\n<style>\r\n    main {\r\n        padding: 10px;\r\n    }\r\n\r\n    img {\r\n        max-height: 50vh;\r\n        border-radius: 20px;\r\n        transition: 0.2s ease-in-out;\r\n    }\r\n\r\n    img:hover {\r\n        transform: scale(1.05);\r\n        box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);\r\n    }\r\n\r\n    .card {\r\n        background-color: #fff;\r\n        color: #35373a;\r\n        max-height: 50vh;\r\n        border-radius: 20px;\r\n        box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06);\r\n    }\r\n\r\n</style>\r\n"
+  ],
+  "names": [],
+  "mappings": "AAiBI,IAAI,cAAC,CAAC,AACF,OAAO,CAAE,IAAI,AACjB,CAAC,AAED,GAAG,cAAC,CAAC,AACD,UAAU,CAAE,IAAI,CAChB,aAAa,CAAE,IAAI,CACnB,UAAU,CAAE,IAAI,CAAC,WAAW,AAChC,CAAC,AAED,iBAAG,MAAM,AAAC,CAAC,AACP,SAAS,CAAE,MAAM,IAAI,CAAC,CACtB,UAAU,CAAE,CAAC,CAAC,GAAG,CAAC,GAAG,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,GAAG,CAAC,AAC5C,CAAC,AAED,KAAK,cAAC,CAAC,AACH,gBAAgB,CAAE,IAAI,CACtB,KAAK,CAAE,OAAO,CACd,UAAU,CAAE,IAAI,CAChB,aAAa,CAAE,IAAI,CACnB,UAAU,CAAE,CAAC,CAAC,GAAG,CAAC,IAAI,CAAC,KAAK,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,CAAC,IAAI,CAAC,AAC9C,CAAC"
+}

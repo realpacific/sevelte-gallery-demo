@@ -1,0 +1,24 @@
+main.svelte-z6dlzv {
+    padding: 10px
+}
+
+img.svelte-z6dlzv {
+    max-height: 50vh;
+    border-radius: 20px;
+    transition: 0.2s ease-in-out
+}
+
+img.svelte-z6dlzv:hover {
+    transform: scale(1.05);
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.2)
+}
+
+.card.svelte-z6dlzv {
+    background-color: #fff;
+    color: #35373a;
+    max-height: 50vh;
+    border-radius: 20px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.06)
+}
+
+/*# sourceMappingURL=bundle.css.map */
